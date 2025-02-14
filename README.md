@@ -24,7 +24,7 @@ The valid scoring combinations in this game are:
 - **Select Dice:** Use the checkboxes below each die to select those that form valid scoring combinations.
 - **Hold and Continue:** After selecting scoring dice, click **"Hold and continue"** to lock in your score and re-roll the remaining dice.
 - **Save and Pass:** If you want to end your turn, click **"Save and pass"** to add your turn's points to your overall score.
-- **Busted Roll:** If no valid scoring combination is rolled (a "bust"), you'll see a message (e.g., `"Kurwa! No scoring combinations. Turn resets."`) and your turn will automatically reset after a short delay.
+- **Busted Roll:** If no valid scoring combination is rolled (a "bust"), you'll see a message (e.g., `"Kurwa!"`) and your turn will automatically reset after a short delay.
 - **Clear Overall Score:** Use the **"Clear Overall Score"** button to reset your overall score if desired.
 
 ## Requirements
