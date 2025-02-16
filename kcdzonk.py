@@ -103,7 +103,7 @@ dice_checkbuttons = []
 for i in range(6):
     frame = tk.Frame(dice_frame, relief="groove", bd=2, padx=10, pady=10)
     frame.grid(row=0, column=i, padx=5)
-    lbl = tk.Label(frame, text="", font=("Helvetica", 20), width=2)
+    lbl = tk.Label(frame, text="", font=("Helvetica", 20), width=2, fg="black", bg="lightgray")
     lbl.pack()
     var = tk.BooleanVar()
     #command to check update_selection_buttons to enable scoring buttons
@@ -160,7 +160,7 @@ def roll_dice():
     #update dice UI boxes (only first active_dice_count boxes are used)
     for i in range(6):
         if i < active_dice_count:
-            dice_labels[i].config(text=str(current_dice[i]), bg="white")
+            dice_labels[i].config(text=str(current_dice[i]), bg="lightgray", fg="black")
             dice_check_vars[i].set(False)
             dice_checkbuttons[i].config(state="normal")
         else:
